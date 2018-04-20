@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">        
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>Responsive Utilities</title>
+
+    <style>
+        .columna{
+            background: #2191fb;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="d-block d-sm-none col columna">
+               <h1>XS -Extra Small</h1>
+            </div>
+            <div class="d-none d-sm-block d-md-none col columna">
+                    <h1>SM -Small</h1>
+            </div>
+            <div class="d-none d-md-block d-lg-none col columna">
+                    <h1>MD -Medium</h1>
+            </div>
+            <div class="d-none d-lg-block d-xl-none col columna">
+                    <h1>LG -Large</h1>
+            </div>
+            <div class="d-none d-xl-block col columna">
+                    <h1>XL -Extra Large</h1>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit vivamus, 
+                        tincidunt malesuada erat arcu commodo sodales nostra. 
+                    </p>
+                </div>
+            </div>
+    </div>
+
+    <script src="../libs/js/jquery-3.3.1.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+</body>
+</html>
