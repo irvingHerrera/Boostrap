@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>Carusel</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-targe="#principal-carousel" data-slid-to="0" class="active"></li>
+                        <li data-targe="#principal-carousel" data-slid-to="1"></li>
+                        <li data-targe="#principal-carousel" data-slid-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://placeimg.com/1100/401/any" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/1101/401/any" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/1102/401/any" alt="">
+                        </div>
+                    </div>
+
+                    <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+
+                    <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="carousel slide" id="secundary-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-targe="#secundary-carousel" data-slid-to="0" class="active"></li>
+                        <li data-targe="#secundary-carousel" data-slid-to="1"></li>
+                        <li data-targe="#secundary-carousel" data-slid-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption d-block">
+                                <h4>Titulo de la imagen</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus alias dicta eligendi illum, illo porro magni voluptas quia dolor doloribus ipsum esse perferendis praesentium, ratione doloremque dolorum provident ex quae.</p>
+                            </div>
+                            <img src="http://placeimg.com/1100/401/any" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/1101/401/any" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/1102/401/any" alt="">
+                        </div>
+                    </div>
+
+                    <a href="#secundary-carousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+
+                    <a href="#secundary-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../libs/js/jquery-3.3.1.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+</body>
+
+</html>
