@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>NavBar</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fmMenu" aria-controls="fmMenu" aria-label="Menu" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <div class="collapse navbar-collapse" id="fmMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link dropdown-toggle" id="menuCategoria" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="menuCategoria">
+                            <a href="" class="dropdown-item">Categoria 1</a>
+                            <a href="" class="dropdown-item">Categoria 2</a>
+                            <a href="" class="dropdown-item">Categoria 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link disabled">Proximamente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+
+                <form action="" class="form-inline">
+                    <input type="text" class="form-control mr-2" placeholder="Buscar">
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <script src="../libs/js/jquery-3.3.1.min.js"></script>
+    <script src="../libs/js/popper.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+</body>
+
+</html>
