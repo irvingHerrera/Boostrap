@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>Popovers</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <h2>Popovers</h2>
+                <hr>
+                <button class="btn btn-primary" data-container="body" data-placement="top" data-toggle="popover" title="Titulo del Popover" data-content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore.">
+                Arriba    
+            </button>
+
+                <button class="btn btn-primary" data-container="body" data-placement="bottom" data-toggle="popover" title="Titulo del Popover" data-content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore.">
+                    Abajo    
+                </button>
+
+
+
+                <button class="btn btn-primary" data-container="body" data-placement="right" data-toggle="popover" title="Titulo del Popover" data-content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore.">
+                            Dechacha    
+                        </button>
+                <button class="btn btn-primary" data-container="body" data-placement="left" data-toggle="popover" title="Titulo del Popover" data-content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore.">
+                                Izquierda    
+                            </button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../libs/js/jquery-3.3.1.min.js"></script>
+    <script src="../libs/js/popper.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>
