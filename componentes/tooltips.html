@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>Tooltips</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-3">
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                        Tooltip on top
+                      </button>
+            <div class="col">
+
+                <p>Lorem, <a href="#" data-toggle="tooltip" data-placement="top" title="Ejemplo de tooltip">ipsum dolor sit amet consectetur</a> adipisicing elit. Quos, quas.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../libs/js/jquery-3.3.1.min.js"></script>
+    <script src="../libs/js/popper.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
