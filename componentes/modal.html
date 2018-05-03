@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>Modal</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#fmModal">
+                    Abrir Modal
+                </button>
+                <div class="modal fade" id="fmModal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="fmModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Titulo de la ventana</h1>
+                                <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <h1>Titulo</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam consequuntur molestias voluptatibus beatae, ex blanditiis modi aspernatur nam laborum repudiandae omnis odio suscipit non ducimus harum? Quis, dolorum
+                                    pariatur.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <button class="btn btn-primary" data-toggle="modal" data-target="#fmModalGrid">
+                        Abrir Modal con grid
+                    </button>
+                <div class="modal fade" id="fmModalGrid" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="fmModalGrid">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Grid</h3>
+                                <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos aliquam ut, velit in aperiam, ea atque soluta consectetur blanditiis possimus quod laboriosam nulla! Odio eius fugit placeat aliquam at dignissimos?</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos aliquam ut, velit in aperiam, ea atque soluta consectetur blanditiis possimus quod laboriosam nulla! Odio eius fugit placeat aliquam at dignissimos?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-success">Aceptar</button>
+                                <button class="btn" data-dismiss="modal">Cerrar</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../libs/js/jquery-3.3.1.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+</body>
+
+</html>
