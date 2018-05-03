@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>Variantes de Input</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Tamaños input</h2>
+                <hr>
+                <form action="">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control form-control-lg" name="nombre" id="nombre" placeholder="Nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="correo">Correo</label>
+                        <input type="text" class="form-control" name="correo" id="correo" placeholder="Correo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pasaporte">Pasaporte</label>
+                        <input type="text" class="form-control form-control-sm" name="pasaporte" id="pasaporte" placeholder="Pasaporte">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Estados de Readonly y Disabled</h2>
+                <hr>
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre" readonly>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" disabled name="correo" id="correo" placeholder="Correo">
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="radio" name="" id="" disabled> radio
+                        </label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../libs/js/jquery-3.3.1.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+</body>
+
+</html>
