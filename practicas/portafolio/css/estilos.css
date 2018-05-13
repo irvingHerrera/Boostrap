@@ -259,3 +259,71 @@
     .redes-sociales .facebook {
         background: #3b5998;
     }
+    /*Mediaqueries*/
+    /* Dispositivo xl */
+    
+    @media screen and (max-width: 1199px) {}
+    /* Dispositivo lg */
+    
+    @media screen and (max-width: 991px) {
+        .logo {
+            height: 76px;
+        }
+        .menu {
+            min-height: 76px;
+        }
+        .menu a {
+            width: 100%;
+        }
+        .menu div {
+            width: 100%;
+        }
+        .portafolio .galeria .contenedor-imagen:nth-child(1) {
+            order: 1;
+        }
+        .portafolio .galeria .contenedor-imagen:nth-child(2) {
+            order: 3;
+        }
+        .portafolio .galeria .contenedor-imagen:nth-child(3) {
+            order: 6;
+        }
+        .portafolio .galeria .contenedor-imagen:nth-child(4) {
+            order: 2;
+        }
+        .portafolio .galeria .contenedor-imagen:nth-child(5) {
+            order: 5;
+        }
+        .portafolio .galeria .contenedor-imagen:nth-child(6) {
+            order: 4;
+        }
+        .portafolio .galeria .contenedor-imagen:nth-child(7) {
+            order: 7;
+        }
+        .modal .modal-dialog {
+            width: 90%;
+        }
+        .modal .modal-dialog .modal-content img {
+            width: 100%;
+        }
+    }
+    /* Dispositivo md */
+    
+    @media screen and (max-width: 767px) {}
+    /* Dispositivo sm */
+    
+    @media screen and (max-width: 575px) {
+        header {
+            margin-top: 0;
+            text-align: center;
+        }
+        header .logo h2,
+        header .logo p {
+            font-size: 12px;
+        }
+        .redes-sociales -icono {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 20px;
+        }
+    }
