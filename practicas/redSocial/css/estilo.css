@@ -324,3 +324,23 @@
         color: #919191;
         margin-top: 10px;
     }
+    /*Mediaqueries*/
+    
+    @media screen and (max-width: 767px) {
+        main .btn-menu {
+            display: block;
+            border: 1px solid #00609c;
+            padding: 5px 10px;
+            font-size: 14px;
+            background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+            color: #fff;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        main .btn-menu:hover {
+            background: #0d659d;
+            text-decoration: none;
+        }
+    }
