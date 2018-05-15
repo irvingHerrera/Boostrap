@@ -86,3 +86,39 @@ header .menu .imagen {
 header .menu .imagen img {
     border-radius: 100px;
 }
+
+
+/*Main*/
+
+main {
+    padding-top: 20px;
+}
+
+
+/*Barra izquierda*/
+
+main .barra-lateral-izquierda {
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+main .barra-lateral-izquierda nav {
+    border-bottom: 1px solid #c7c8ca;
+    padding-bottom: 20px;
+}
+
+main .barra-lateral-izquierda nav a {
+    display: block;
+    padding: 3px 3px;
+    font-family: 'Roboto', sans-serif;
+    color: #3d3c3c;
+}
+
+main .barra-lateral-izquierda nav a:hover {
+    background: #f2f2f2;
+    text-decoration: none;
+}
+
+main .barra-lateral-izquierda nav a i {
+    margin-right: 10px;
+}
