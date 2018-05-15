@@ -122,3 +122,73 @@ main .barra-lateral-izquierda nav a:hover {
 main .barra-lateral-izquierda nav a i {
     margin-right: 10px;
 }
+
+
+/*Contenido principal*/
+
+
+/*Publicar*/
+
+main .contenido-principal .publicar {
+    margin-bottom: 20px;
+}
+
+main .contenido-principal .publicar .foto {
+    padding-left: 15px;
+}
+
+main .contenido-principal .publicar .foto a {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 100px;
+    mask-position: 20px;
+}
+
+main .contenido-principal .publicar .foto img {
+    width: 100%;
+}
+
+main .contenido-principal .publicar form textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #565656;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35)
+}
+
+main .contenido-principal .publicar form .contenedor-botones {
+    padding: 20px 0;
+    border-bottom: 1px solid #c7c8ca;
+}
+
+main .contenido-principal .publicar form .contenedor-botones a {
+    color: #8d8d8d;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+main .contenido-principal .publicar form .contenedor-botones a:hover {
+    color: #3d3c3c;
+}
+
+main .contenido-principal .publicar form button {
+    border: 1px solid #00609c;
+    padding: 5px 30px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+main .contenido-principal .publicar form button:hover {
+    background: linear-gradient(to bottom, #1176b6 0%, #1a87cd 100%);
+}
