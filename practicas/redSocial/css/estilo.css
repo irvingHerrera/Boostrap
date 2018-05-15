@@ -343,4 +343,46 @@
             background: #0d659d;
             text-decoration: none;
         }
+        main .fondo-enlace {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            cursor: pointer;
+            background: rgba(0, 0, 0, .5);
+            z-index: 99;
+            display: none;
+        }
+        mian .fondo-enlace.active {
+            display: block !important;
+        }
+        main .barra-lateral-izquierda {
+            width: 85%;
+            position: fixed;
+            background: rgba(0, 0, 0, .85);
+            z-index: 100;
+            top: 0;
+            left: 0;
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            transform: translateX(-100%);
+            transition: all .3s ease;
+            overflow: scroll;
+        }
+        main .barra-lateral-izquierda.active {
+            transform: translateX(0%);
+        }
+        main .barra-lateral-izquierda nav {
+            border-bottom: none;
+        }
+        main .barra-lateral-izquierda nav a {
+            padding: 20px;
+            color: #fff;
+        }
+        main .barra-lateral-izquierda nav a:hover {
+            color: #3d3c3c;
+            background: #fff;
+        }
     }
